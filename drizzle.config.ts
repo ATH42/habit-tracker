@@ -6,7 +6,7 @@ export default {
   schema: "./src/server/db/schema.ts",
   dialect: "postgresql",
   dbCredentials: {
-    url: "paosdjkhalgf",
+    url: env.DATABASE_URL,
   },
   tablesFilter: ["habit-tracker_*"],
 } satisfies Config;
